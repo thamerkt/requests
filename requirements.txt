@@ -12,3 +12,4 @@ django-cors-headers
 Pillow
 kafka-python
 httpx
+python-dotenv
