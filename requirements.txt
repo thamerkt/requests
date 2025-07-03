@@ -13,3 +13,4 @@ Pillow
 kafka-python
 httpx
 python-dotenv
+pika
