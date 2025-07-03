@@ -64,11 +64,11 @@ KEYCLOAK_ADMIN_PASSWORD = os.getenv('KEYCLOAK_ADMIN_PASSWORD', '')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DATABASE_NAME', 'rentals_db'),
-        'USER': os.getenv('DATABASE_USER', 'thamer'),
-        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'thamer4a'),
-        'HOST': os.getenv('DATABASE_HOST', 'db'),
-        'PORT': os.getenv('DATABASE_PORT', '5432'),
+        'NAME': os.getenv('PGDATABASE', 'rentals_db'),
+        'USER': os.getenv('PGUSER', 'thamer'),
+        'PASSWORD': os.getenv('PGPASSWORD', 'thamer4a'),
+        'HOST': os.getenv('PGHOST', 'db'),
+        'PORT': os.getenv('PGPORT', '5432'),
     }
 }
 
